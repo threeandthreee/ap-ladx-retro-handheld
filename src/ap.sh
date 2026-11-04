@@ -127,12 +127,10 @@ has_source() {
 # save_matches <file name> <rom name>: is this a save/state file belonging to that ROM?
 # (Name.srm, Name.state, Name.state1, Name.state.auto, Name.state1.png ...)
 save_matches() {
-  b1=${1%.*}
-  [ "$b1" = "$2" ] && return 0
-  case "${b1##*.}" in
-    state*) [ "${b1%.*}" = "$2" ] && return 0 ;;
+  case "$1" in
+    "$2".*) return 0 ;;
+    *)      return 1 ;;
   esac
-  return 1
 }
 
 wipe_saves() {

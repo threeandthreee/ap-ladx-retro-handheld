@@ -61,6 +61,8 @@ Put yamls into `APLADX/solo_yamls` on your device. Launch the **APLADX** applica
 
 Device specific paths can be edited in `APLADX/platform.conf`. On MuOS you'll need to edit your `BASE_ROM_DIRECTORY` if your roms are on the second SD card. You'll need to adjust the save paths if you use Sameboy instead of Gambatte.
 
+If you don't want this managing your save files, just clear out `SAVEFILE_DIRECTORY` and `SAVESTATE_DIRECTORY`.
+
 You can edit `APLADX/.data/Archipelago/host.yaml` if you want to set up a gfxmod file or option overrides.
 
 

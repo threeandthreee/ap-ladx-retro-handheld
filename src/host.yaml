@@ -1,0 +1,20 @@
+general_options:
+  output_path: "output"
+generator:
+  player_files_path: "Players"
+  players: 1
+  allow_quantity: false
+  spoiler: 0
+  plando_options: "items, bosses, connections, texts"
+  panic_method: "swap"
+  loglevel: "info"
+  logtime: false
+ladx_beta_options:
+  rom_file: "Legend of Zelda, The - Link's Awakening DX (USA, Europe) (SGB Enhanced).gbc"
+  rom_start: false
+  retroarch_host: "127.0.0.1:55355"
+  gfx_mod_file: ""
+ladx_options:
+  rom_file: "Legend of Zelda, The - Link's Awakening DX (USA, Europe) (SGB Enhanced).gbc"
+  rom_start: false
+  gfx_mod_file: ""

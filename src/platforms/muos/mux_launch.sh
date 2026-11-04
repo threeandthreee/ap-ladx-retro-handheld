@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # HELP: Patch and play Archipelago Links Awakening DX seeds, or generate a solo game. Runs the client in the background.
-# ICON: ap_ladx
+# ICON: apladx_icon
 # GRID: AP LADX
 
 . /opt/muos/script/var/func.sh
